@@ -1,0 +1,12 @@
+Substitua os placeholders (blocos com ícone SVG) do index.html pelas fotos reais, salvando os arquivos aqui com estes nomes:
+
+hero.webp        -> foto do consultório usada na seção Hero
+dr-paulo.webp    -> foto profissional do Dr. Paulo Camurça (seção "Sobre")
+clinica.webp     -> foto geral da clínica
+implante.webp    -> imagem ilustrativa da seção de implantes/cirurgia guiada
+scanner-3d.webp  -> imagem do scanner 3D / planejamento digital
+laser-pdt.webp   -> imagem da seção de tratamento de canal + Laser PDT
+protese.webp     -> imagem da seção de próteses
+galeria/         -> fotos adicionais da galeria (equipe, recepção, equipamentos etc.)
+
+Depois de adicionar os arquivos, troque os blocos <!-- SUBSTITUIR PELA FOTO REAL... --> no index.html por tags <img> apontando para assets/images/nome-do-arquivo.webp, mantendo o atributo alt descritivo e loading="lazy" nas imagens fora da primeira dobra.

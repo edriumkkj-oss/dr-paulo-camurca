@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.drpaulocamurca.com.br/sitemap.xml
